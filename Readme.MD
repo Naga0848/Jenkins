@@ -152,3 +152,5 @@
     }
 
     Here we use these parameters ouside the build and to call these parameters, we use the echo "Hello ${params.PERSON}" inside any stage
+    After using this parameters in the pipeline, it will start showing the Buildwithparametrs option in the console.
+    
