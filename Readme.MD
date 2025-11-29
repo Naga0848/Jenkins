@@ -160,3 +160,5 @@
     https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project
 
   ![alt text](images/webhook.png)  
+
+  Here we need to use the jenkins url along with the /github-webhook/ in Payload URL
