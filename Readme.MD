@@ -28,3 +28,33 @@
     3. no body remember how to do it again
     4. can't re use
     5. time consuming
+
+#### General Notes 
+
+    Pre-Build >>>	    Build >>>		   Post-Build
+    Pre production >>   production  >>     Post production    
+
+    Pre-Build -> Options, environment, where to run
+    Build --> Actual pipeline
+    Post-Build -> fail, success or anything notifications
+
+    Master Agent/Node
+    =================
+    Jenkins has to run different project pipelines. diff languages, diff versions, diff devices
+
+    Jenkins master responsibility to distribure the builds to different agents. We can have more agents with diff programming languages, diff OS and diff environment. So that load will be reduced on the master. Master collects the logs from agents and monitor them.
+
+    declrative vs scripted pipeiline
+    ================================
+    scripted pipeline is old, declrative is new pipeiline from jenkins-2.X
+    scripted --> groovy based pipeline, feels little bit tough but you will have more control.
+    declrative --> syntax is easy, entire pipeline compiles before run the pipeiline
+    scripted --> compiles at the time of execution
+
+    we are using a mix of declrative and scripted pipeiline
+
+    GitHub Webhook
+    ===============
+    When developer is in feature branch, we he push the code to remote I need to immidiately trigger jenkins pipeline automatically..
+
+    GitHub -> Jenkins
