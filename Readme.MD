@@ -90,4 +90,5 @@
 
   ![alt text](images/agent1.png)
 
-    In the above we see remoting.jar which is using full for tracking the agent and using this jar file the agent connects with the master and performs the given tasks
+    In the above image we see remoting.jar which is using full for tracking the agent and using this jar file the agent connects with the master and performs the given tasks.
+
