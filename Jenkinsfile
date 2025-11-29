@@ -1,6 +1,6 @@
 pipeline {
     agent any {
-        label 'AGENT-1'
+        label 'AGENT-1'    // this is the label which we mentioned while configuring the Agent
               }
     stages {
         stage('Build') {
