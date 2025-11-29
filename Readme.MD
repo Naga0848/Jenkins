@@ -177,4 +177,32 @@
 
   ![alt text](images/webhook.png)  
 
-  Here we need to use the jenkins url along with the /github-webhook/ in Payload URL for the GitHub Webhooks triggering
+    Here we need to use the jenkins url along with the /github-webhook/ in Payload URL for the GitHub Webhooks triggering
+
+#### Testing   
+
+     testing
+     ==========
+     unit testing --> this should be done by developer
+
+     functions are basic blocks of the programming
+
+     login(username, password){
+	
+     }
+
+     functional testing --> DEV
+     =================
+     either developers/testers
+
+     login(username, password){
+	 connectSQL()
+	 checkUserName()
+	 checkPassword()
+     }
+
+     integration testing --> SIT/UAT/QA
+     ================
+     testing team writes integration test cases
+     catalogue cart
+     cart is calling catalogue
