@@ -74,6 +74,7 @@
     Stage View   >>> Pipeline Stage View Plugin.
     AnsiColor    >>> Adds ANSI coloring to the Console Output
     Blue Ocean   >>> This plugin shows the output in a neat and clean way in all the stages step by step
+    Pipeline Utility Steps >>> key reasons why this plugin is utilized is File and Archive Operations, Version Management, Workspace Manipulation and General Utility
 
 #### Steps to Launch a Jenkins Agent
 
@@ -157,7 +158,7 @@
 
 #### GitHub WebHooks
 
-    https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project
+    https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project   >> steps for GitHub WebHooks
 
   ![alt text](images/webhook.png)  
 
