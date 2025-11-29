@@ -72,3 +72,5 @@
 #### Plugins to be installed
 
     Stage View   >>> Pipeline Stage View Plugin.
+    AnsiColor    >>> Adds ANSI coloring to the Console Output
+    Blue Ocean   >>> This plugin shows the output in a neat and clean way in all the stages step by step
