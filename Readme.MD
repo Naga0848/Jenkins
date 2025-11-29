@@ -63,4 +63,7 @@
 
     URL to refer >>>> https://www.jenkins.io/doc/book/pipeline/syntax/
 
-    
+    sudo cd /var/lib/jenkins/secrets/initialAdminPassword   >>> to get the password and login to Jenkins and install the plugins
+
+![alt text](images/installation.png)
+
