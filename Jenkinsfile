@@ -19,7 +19,7 @@ pipeline {
             }
         }
     }
-    post {   // these are the post build things
+    post {   // these are the post build things and printed after the build
         always { 
             echo 'I will always say Hello again!'
             deleteDir()    // this deletes the folder which are created after a build to overcome the duplicated in the next build
@@ -28,7 +28,7 @@ pipeline {
             echo 'Hello success!'
         }
         failure { 
-            echo 'Hello Failure!'
+            echo 'Build Failed!'  // this gets printed, when a build is failed
         }  
     }
 }
