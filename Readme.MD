@@ -69,3 +69,6 @@
 
     
 
+#### Plugins to be installed
+
+    Stage View   >>> Pipeline Stage View Plugin.
