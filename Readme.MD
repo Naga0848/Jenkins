@@ -153,4 +153,10 @@
 
     Here we use these parameters ouside the build and to call these parameters, we use the echo "Hello ${params.PERSON}" inside any stage
     After using this parameters in the pipeline, it will start showing the Buildwithparametrs option in the console.
-    
+
+
+#### GitHub WebHooks
+
+    https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project
+
+  ![alt text](images/webhook.png)  
