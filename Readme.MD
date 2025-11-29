@@ -161,4 +161,4 @@
 
   ![alt text](images/webhook.png)  
 
-  Here we need to use the jenkins url along with the /github-webhook/ in Payload URL
+  Here we need to use the jenkins url along with the /github-webhook/ in Payload URL for the GitHub Webhooks triggering
