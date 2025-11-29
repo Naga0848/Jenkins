@@ -93,9 +93,9 @@
     In the above image we see remoting.jar which is using full for tracking the agent and using this jar file the agent connects with the master and performs the given tasks.
 
 #### Jenkinsfile synatx
+        We can modify it accordingly
      pipeline {
         agent any
-
         stages {
             stage('Build') {
                 steps {
@@ -115,3 +115,40 @@
         }
     }    
 
+#### Parameters
+    The parameters directive provides a list of parameters that a user should provide when triggering the Pipeline. The values for these user-specified parameters are made available to Pipeline steps via the params object.
+    Each parameter has a Name and Value, depending on the parameter type. This information is exported as environment variables when the build starts, allowing subsequent parts of the build configuration to access those values.
+
+    Available Parameters
+    
+    pipeline {
+        agent any
+        parameters {
+        string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
+
+        text(name: 'BIOGRAPHY', defaultValue: '', description: 'Enter some information about the person')
+
+        booleanParam(name: 'TOGGLE', defaultValue: true, description: 'Toggle this value')
+
+        choice(name: 'CHOICE', choices: ['One', 'Two', 'Three'], description: 'Pick something')
+
+        password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
+        }
+        stages {
+            stage('Example') {
+                steps {
+                    echo "Hello ${params.PERSON}"
+
+                    echo "Biography: ${params.BIOGRAPHY}"
+
+                    echo "Toggle: ${params.TOGGLE}"
+
+                    echo "Choice: ${params.CHOICE}"
+
+                    echo "Password: ${params.PASSWORD}"
+                }
+            }
+        }
+    }
+
+    Here we use these parameters ouside the build and to call these parameters, we use the echo "Hello ${params.PERSON}" inside any stage
