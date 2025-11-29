@@ -42,7 +42,7 @@
     =================
     Jenkins has to run different project pipelines. diff languages, diff versions, diff devices
 
-    Jenkins master responsibility to distribure the builds to different agents. We can have more agents with diff programming languages, diff OS and diff environment. So that load will be reduced on the master. Master collects the logs from agents and monitor them.
+    Jenkins master responsibility to distribute the builds to different agents. We can have more agents with diff programming languages, diff OS and diff environment. So that load will be reduced on the master. Master collects the logs from agents and monitor them.
 
     declrative vs scripted pipeiline
     ================================
