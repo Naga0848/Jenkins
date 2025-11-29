@@ -1,5 +1,5 @@
 pipeline {
-    agent any {
+    agent {
         label 'AGENT-1'    // this is the label which we mentioned while configuring the Agent
               }
     stages {
