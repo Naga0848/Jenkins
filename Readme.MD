@@ -1,4 +1,4 @@
-### In this repo, we will understand the basics of Jenkins
+## In this repo, we will understand the basics of Jenkins
 
 #### Commands to install Jenkins
 
