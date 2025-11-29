@@ -75,6 +75,8 @@
     AnsiColor    >>> Adds ANSI coloring to the Console Output
     Blue Ocean   >>> This plugin shows the output in a neat and clean way in all the stages step by step
     Pipeline Utility Steps >>> key reasons why this plugin is utilized is File and Archive Operations, Version Management, Workspace Manipulation and General Utility
+    AWS Credentials  >>> Allows storing Amazon IAM credentials within the Jenkins Credentials API. Store Amazon IAM access keys (AWSAccessKeyId and AWSSecretKey) within the Jenkins Credentials API. Also support IAM Roles and IAM MFA Token.
+
 
 #### Steps to Launch a Jenkins Agent
 
