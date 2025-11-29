@@ -12,7 +12,13 @@ pipeline {
     stages {    // These are Build related
         stage('Build') {
             steps {
-                echo 'Building..'
+                script{    /// directly using a shell script inside a stage
+                    sh """
+                        echo "Hello Build"
+                        sleep 10
+                        env
+                    """
+                }
             }
         }
         stage('Test') {
