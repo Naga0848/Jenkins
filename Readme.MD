@@ -83,3 +83,7 @@
 
   ![alt text](images/addingcredentials.png)
   ![alt text](images/agent.png)
+
+    Make sure Jenkins-Agent has Java running on it...
+
+    sudo yum install fontconfig java-21-openjdk -y
