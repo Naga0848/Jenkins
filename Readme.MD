@@ -74,3 +74,12 @@
     Stage View   >>> Pipeline Stage View Plugin.
     AnsiColor    >>> Adds ANSI coloring to the Console Output
     Blue Ocean   >>> This plugin shows the output in a neat and clean way in all the stages step by step
+
+#### Steps to Launch a Jenkins Agent
+
+    create a new ec2 instance
+    In Jenkins >> Manage Jenkins >> Nodes >> Give the private IP and add the Jenkins credentials(here user is ec2-user and password is DevOps321) and give a label as well
+    This agent will be launched, if the agent we mentioned here and the agent name in the Jenkinsfile i.e., pipeline matches
+
+  ![alt text](images/addingcredentials.png)
+  ![alt text](images/agent.png)
