@@ -58,3 +58,9 @@
     When developer is in feature branch, we he push the code to remote I need to immidiately trigger jenkins pipeline automatically..
 
     GitHub -> Jenkins
+
+####  Understanding the Jenkins Pipeline Syntaxes
+
+    URL to refer >>>> https://www.jenkins.io/doc/book/pipeline/syntax/
+
+    
