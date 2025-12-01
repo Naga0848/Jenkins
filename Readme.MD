@@ -70,6 +70,8 @@
 ### Sessions Details
     79 about the scanning and also, discussed about the jenkinsfile for rollbacking the deployment in a specific env
     78 created the catalogue and its respective deployment jenkins file and created INFRA (EKS) using Terraform
+    77 also about catalogue CI pipeline creation is discussed
+    76 Basic Jenkinfile is discussed
 
 #### Plugins to be installed
 
