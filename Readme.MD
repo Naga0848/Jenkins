@@ -67,7 +67,9 @@
 
   ![alt text](images/installation.png)
 
-    
+### Sessions Details
+    79 about the scanning and also, discussed about the jenkinsfile for rollbacking the deployment in a specific env
+    78 created the catalogue and its respective deployment jenkins file and created INFRA (EKS) using Terraform
 
 #### Plugins to be installed
 
